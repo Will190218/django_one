@@ -1,0 +1,6 @@
+-Trocar as imagends do projeto por fontes para poder aplicar o efeito hover
+-Usar como exemlo a interface de configurações de API do Zendesk https://developer.zendesk.com/api-reference/
+
+
+O que pesquisar
+efeito ancora com html e javascript 

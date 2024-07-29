@@ -1,0 +1,3 @@
+H1: din w01 bold
+P: DIN W01 Cond Bold Fonts
+colors fonts:rgb(0, 174, 239); #04adee;(azul)

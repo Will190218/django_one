@@ -1,0 +1,226 @@
+/*configurações gerais*/
+
+svg {
+    width: 5vh;
+}
+
+:root {
+    --cor-secundaria: #04ADEE;
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+p,
+a {
+    display: inline-block;
+    font-weight: regular;
+    text-decoration: none;
+}
+
+h1 {
+    font: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*FOTOS E SVG*/
+
+#config {
+    width: 5vh;
+}
+
+#minha-foto {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+}
+
+
+/*SIDEBAR*/
+
+#sidebar {
+    height: 100%;
+    background-color: black;
+    width: 320px;
+    position: fixed;
+    border-right: 1px solid #04ADEE;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 290px;
+    margin: 0px 15px;
+    height: 40vh;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#home {
+    display: inline-block;
+    margin-top: 35px;
+    width: 290px;
+}
+
+#home h4 {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#apresentacao {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 12px;
+}
+
+.nav_li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.svg_icon:hover path {
+    fill: white;
+    transition: fill 0.5s;
+}
+
+svg:hover circle {
+    fill: white;
+    transition: fill 0.5s;
+}
+
+#navegacao_two li {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #04ADEE;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#navegacao_two li a {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #04ADEE;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+#navegacao_two li a:hover {
+    color: white;
+    transition: color 0.3s;
+}
+
+
+/*conteudo principal*/
+
+main {
+    background-color: black;
+    width: 73%;
+    height: 100vh;
+    position: absolute;
+    left: 320px;
+}
+
+.conteudo_principal {
+    border-radius: 15px;
+    margin-top: 3vh;
+    height: 15vh;
+    /* margin: 10px; */
+    color: white;
+    display: flex;
+    width: 90%;
+    margin-left: 8%;
+    background-image: linear-gradient(#04ADEE, black);
+}
+
+.conteudo_principal:hover {
+    cursor: pointer;
+    color: #04ADEE;
+    background-image: linear-gradient(180deg, black, #04ADEE);
+}
+
+.div_section {
+    display: flex;
+    width: 73%;
+    height: 10vh;
+    /* background-color: red; */
+    margin-top: 5vh;
+    margin-left: 2%;
+    align-items: center;
+    font-size: 3.2vh;
+    justify-content: flex-start;
+    margin-left: 4%;
+}
+
+.div_section h2 {
+    margin-bottom: 1vh;
+    padding-left: 2vh;
+}
+
+#div_texto p {
+    margin-bottom: 1vh;
+    padding-left: 2vh;
+}
+
+#javascript {
+    height: 7vh;
+    width: 10vh;
+
+    /* background-color: green; */
+}
+
+
+/*barra lateral direita */
+
+#right_aside {
+    position: fixed;
+    right: 0;
+    background: #000000;
+    border-left: 1px solid #04ADEE;
+    width: 50px;
+    height: 100%;
+}
+
+.icons-right {
+    width: 5vh;
+    height: 5vh;
+    margin-top: 20px;
+}
+
+#nav_superior {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav_inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50vh;
+}

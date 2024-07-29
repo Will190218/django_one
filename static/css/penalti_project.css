@@ -1,0 +1,100 @@
+/*configurações gerais*/
+
+:root {
+    --cor-secundaria: #04ADEE;
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+p,
+a {
+    color: #04ADEE;
+    display: inline-block;
+    font-weight: regular;
+    text-decoration: none;
+}
+
+h1 {
+    font: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*container*/
+
+#projeto_penaltis {
+    width: 96.5%;
+    height: 100vh;
+    left: 0;
+}
+
+#nav_left {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 10%;
+}
+
+#nav_left ul {
+    padding: 5px;
+    height: 10vh;
+}
+
+#minha-foto-navegacao {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+
+#nav_left ul:last-child {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+nav ul li p {
+    font-size: 2.2vh;
+    color: white;
+}
+
+.nav_li_penaltis {
+    padding: 0.5vh;
+}
+
+.nav_li_penaltis svg {
+    width: 3vh;
+}
+
+
+/**/
+
+main article h1 {
+    color: white;
+    font-size: 5vh;
+    margin-left: 10%;
+    margin-top: 4vh;
+}
+
+main article p {
+    margin-left: 10%;
+    margin-top: 4vh;
+    width: 80%;
+    /* background-color: red; */
+    line-height: 5.4vh;
+}
+
+article img {
+    margin-left: 10%;
+    margin-top: 8vh;
+    width: 100vh;
+}
+
+
+/*ICONS*/

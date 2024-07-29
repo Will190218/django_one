@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'galeria',
 ]
 
 MIDDLEWARE = [
@@ -54,10 +55,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'setup.urls'
 
+# toda a parte visual da app fica no templates
+
+# DIRS e onde fica os arquivos htmls que precisam ser renderizados
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates', 'web')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,6 +124,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# significa que todos os estaticos estao nessa pasta
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'setup/static')]
+
+# caminho absoluto para o diretorio
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

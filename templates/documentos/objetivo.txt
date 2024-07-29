@@ -1,0 +1,13 @@
+Objetivo:
+Desenvolver um painel para organizar:
+- Treinamentos (ex: suporte ao cliente, comercial, produtividade)
+- Tutoriais (ex.: Instalar Google Remote Deskto, Instalar impressora, Pasta na rede compartilhada)
+- Procedimentos internos (faturamento, desenvolvimento, //regras da empresa)
+- Identidade visual (fontes, materiais, cores, logo, apresentação modelo)
+- Clientes: Sob medida (exced, DNA vedações, new stars etc..)
+- Clientes gestão: Gestão (clientes, customizações)
+- colocar opção de mudar o contraste da tela "dark ou light"
+tutorial do nosso sistema (exemplo)
+pesquisa tutorial de suporte (colocar opção de pesquisar algum tópico nos tutoriais) 
+-Opção de criar tutoriais pelo painel
+ 
